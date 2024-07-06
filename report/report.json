@@ -1,0 +1,143 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-techverito;search-techverito-on-google",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search Techverito on google",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 270550899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit google homepage",
+            "match": {
+              "location": "features\\step-definitions\\customSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2069898200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for Techverito",
+            "match": {
+              "location": "features\\step-definitions\\customSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1003991899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I Should see the results",
+            "match": {
+              "location": "features\\step-definitions\\customSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 34239499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-techverito",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search Techverito",
+    "tags": [],
+    "uri": "features\\searchTech.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "adding-two-number;adding-two-number",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Adding two number",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 285658299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I add 2 and 5",
+            "match": {
+              "location": "features\\step-definitions\\customSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The result shoud be 7",
+            "match": {
+              "location": "features\\step-definitions\\customSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 585433400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "adding-two-number",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Adding two number",
+    "tags": [],
+    "uri": "features\\test.feature"
+  }
+]
